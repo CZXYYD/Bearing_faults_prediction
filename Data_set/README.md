@@ -1,15 +1,12 @@
 # 原始数据集
 <br>https://csegroups.case.edu/bearingdatacenter/pages/welcome-case-western-reserve-university-bearing-data-center-website
-
+## 数据说明
 <br>两个（官网下的）：
-<br>Normal Baseline Data
-<br>12k Drive End Bearing Fault Data
+<br>Normal Baseline Data   正常轴承数据
+<br>12k Drive End Bearing Fault Data   三种异常轴承数据
 
-# CWRU四分类任务实验
-
-## 一、数据说明
-
-一个，train，用作训练集。（老师给的）   
+一个（老师给的）：
+train，用作训练集，相比上面两个数据少一点
 
 train文件夹中有多个数据文件，文件名含义如下：   
 B代表故障发生在Ball位置，同理IR代表故障发生在inner race位置，OR代表故障发生在outer race位置，NORMAL代表数据文件是正常数据文件；   
@@ -18,12 +15,5 @@ DE_time:驱动端加速度数据
 FE_time:风扇端加速度数据   
 BA_time:基本加速度数据   
 RPM:每分钟转速数据，在提取时实际上RPM对于每个文件只有一个值，但为了文件格式整齐，扩展成了一列，即实际上这一列都是同一个值，代表该文件的RPM
-
-## 二、任务说明
-1、训练一个四分类模型，预测目标为故障发生的位置(normal, ball, inner race, outer race)   
-2、以train文件夹中的数据为训练集，可自行划分数据作为验证集进行模型的验证调优。
-
-## 三、可供参考的评分规则
-评分score为分别单独计算四类预测结果的f1-score加权求和，
-其中三个故障类的权重ball,inner race,outer race均为0.3，正常类的权重为0.1   
+  
 
