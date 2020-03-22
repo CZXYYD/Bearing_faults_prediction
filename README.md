@@ -12,11 +12,3 @@
 
 # 关于github的使用
 https://www.cnblogs.com/schaepher/p/4933873.html
-
-
-## Test
-ganymede到此一游
-
-不知道该写啥呢，亚东女装吧
-=======
-
