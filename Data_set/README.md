@@ -8,6 +8,9 @@
 <br>train，用作训练集，相比上面两个数据少一点
 <br>test，用作测试集
 
+### feature_4
+接口文件，数据处理产出文件，机器学习输入文件
+
 ### train
 train文件夹中有多个数据文件，文件名含义如下：   
 B代表故障发生在Ball位置，同理IR代表故障发生在inner race位置，OR代表故障发生在outer race位置，NORMAL代表数据文件是正常数据文件；   
