@@ -19,6 +19,8 @@
 使用四类的f1-score(precision和recall值的调和平均数)加权和进行评价，按照上面的标签约定，即：   
 score = [0.3×f1score(class1) + 0.3×f1score(class2) + 0.3×f1score(class3) + 0.1×f1score(class0)]*100   
 满分为100分。
+### 作业提交格式
+ 组号_日期.csv 
 
 # 关于github的使用
 https://www.cnblogs.com/schaepher/p/4933873.html
