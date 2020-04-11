@@ -2,6 +2,7 @@
 轴承故障预测大作业项目
 <br>2020/3/18 立项 czxyyd
 <br> Data_set ：数据集文件
+<br> wechatApp ：微信小程序
 
 # 第一周任务说明
 1、训练一个四分类模型，预测目标为故障发生的位置(normal, ball, inner race, outer race)   
