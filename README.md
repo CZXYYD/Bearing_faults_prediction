@@ -22,6 +22,9 @@ score = [0.3×f1score(class1) + 0.3×f1score(class2) + 0.3×f1score(class3) + 0.
 ### 作业提交格式
  组号_日期.csv 
 
+#第三周任务说明
+开发微信小程序，冲冲冲！
+
 # 关于github的使用
 https://www.cnblogs.com/schaepher/p/4933873.html
 
