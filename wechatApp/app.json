@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/factualIfo/factualIfo",
+    "pages/alarms/alarms",
+    "pages/reports/reports"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "phm app",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "list": [
+      {
+        "text": "实况信息",
+        "pagePath": "pages/factualIfo/factualIfo"
+      },
+      {
+        "text": "报警信息",
+        "pagePath": "pages/alarms/alarms"
+      },
+      {
+        "text": "报表",
+        "pagePath": "pages/reports/reports"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
