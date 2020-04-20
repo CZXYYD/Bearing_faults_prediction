@@ -1,4 +1,0 @@
-<!--pages/factualIfo/factualIfo.wxml-->
-<view>
-  <text>{{DE_time}}</text>
-</view>
